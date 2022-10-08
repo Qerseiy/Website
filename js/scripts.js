@@ -7,7 +7,7 @@ diffElem.innerText = diffDays(new Date(), new Date("2023-08-06"));
 
 let speakerElem = document.querySelector("#speaker");
 let isSpeakerPlaying = false;
-let music = new Audio("assets/my_part_song1.m4r");
+let music = new Audio("assets/Krank [Official Audio].mp3");
 music.loop = true;
 
 speakerElem.addEventListener("click", function () {
