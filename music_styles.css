@@ -1,0 +1,91 @@
+#audioPanel * {
+	color: #fff;
+}
+
+audio {
+	width: calc(100% - 2px);
+	border: 0px solid #000;
+	margin: 10px 0px;
+	background-color: transparent;
+
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+
+	-moz-box-shadow: 2px 2px 4px 0px rgba(255, 255, 255, 0.4);
+	-webkit-box-shadow: 2px 2px 4px 0 rgba(255, 255, 255, 0.4);
+	box-shadow: 2px 2px 4px 0 rgba(255, 255, 255, 0.4);
+
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+}
+
+audio:hover,
+audio:focus,
+audio:active {
+	-webkit-box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.4);
+	-moz-box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.4);
+	box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.4);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.05);
+	border-left: 0.01px solid #fff;
+	border-top: 0.01px solid #fff;
+}
+
+#audioPanel h2 {
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+.playerBtn {
+	padding: 12px;
+    margin: 10px;
+	background-color: #000;
+	border-radius: 100%;
+	cursor: pointer;
+	font-size: 20px;
+	border: 1px solid #fff;
+}
+
+#audioPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin: 50px 0 0 0; /* temporary */
+	padding: 5px 30px 10px;
+	background-color: #000;
+	border-radius: 10px;
+	border: 0.1px solid #ffff;
+}
+
+#audioPanel select {
+    border-radius: 2px;
+	margin: 0 auto;
+	padding: 3px;
+	font-size: 1.3rem;
+	list-style-type: none;
+	color: #000;
+}
+
+#audioPanel option {
+	font-size: 1rem;
+	color: #000;
+}
+
+#audioPanel option:active {
+	position: relative;
+	top: 1px;
+}
+
+.playerWrap {
+	display: block;
+	margin: 10px 0;
+    align-self: stretch;
+}
+
+.selected {
+	background-color: red;
+}
