@@ -15,7 +15,7 @@
 body {
 	background-position: center;
 	background-repeat: no-repeat;
-	background-color: #0e0f10;
+	background-color: #000;
 	height: 96vh;
 	overflow: hidden;
 	display: flex;
@@ -116,7 +116,7 @@ a:active {
 	border-radius: 30px;
 	width: 360px;
 	height: 120px;
-	background-color: #0e0f10;
+	background-color: #000;
 	transition: transform 0.2s ease-in-out;
 	margin-bottom: -28px;
 	box-shadow: transparent 0 0 0 0, transparent 0 0 0 0,
